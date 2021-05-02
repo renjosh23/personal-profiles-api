@@ -1,7 +1,7 @@
 {
-  "name": "personal-notes-mgr-api",
+  "name": "personal-profiles-api",
   "version": "1.0.0",
-  "description": "REST API for managing personal notes",
+  "description": "REST API for adding, editing and deleting personal profiles",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",

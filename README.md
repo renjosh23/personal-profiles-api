@@ -1,11 +1,8 @@
-# personal-notes-mgr-api
+# personal-profile-api
 
 REST API for managing personal notes.
 
-A complete RESTful API created using Node.js and Express. We have used MongoDB as the database and mongoose as the ORM library which makes it easier to interact with MongoDB.
-Apart from this, we have used JSON Web Token (JWT) to add authentication. Using JWT, we can protect certain endpoints and ensure that user must be logged-in to access those.
-
-Here are all the videos where we have created this API from scratch - [Youtube Playlist](https://www.youtube.com/playlist?list=PLWieu6NbbqTxb-mKf4J0_Pl3vmGWmOfmY)
+A complete RESTful API created using Node.js and Express
 
 ## Setup and Installation
 
@@ -21,7 +18,7 @@ Here are all the videos where we have created this API from scratch - [Youtube P
 3. **Setup MongoDB**
 
    There are lots of options available to have a running MongoDB instance:
-   - a typical way is to download the community edition from [here](https://www.mongodb.com/download-center/community) and install locally on the machine
+   - a typical way is to download the community edition from [here](https://www.mongodb.com/download-center/community) and install locally on the machine (using Robo 3T will be better)
    - another option is to spin-up an instance on the cloud. Here are step-by-step instruction for that - [Get Started with Atlas](https://docs.atlas.mongodb.com/getting-started)
    - another option is by running a mongodb docker container. If docker is installed, its simply a matter of running single command to spin-up a database instance:
      ```sh

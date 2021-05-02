@@ -26,7 +26,7 @@ app.use((err, req, res, next) => {
     res.status(status).json({ error: { message: err.message } });
 });
 
-mongoose.connect(MONGODB, { useNewUrlParser: true })
+mongoose.connect(MONGODB, { useNewUrlParser: true,  useUnifiedTopology: true })
     .then(() => {
         console.log('connected to mongodb');
         return app.listen(3300);
